@@ -1,0 +1,16 @@
+# Pythonの一時ファイルを無視
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 仮想環境を無視
+venv/
+.venv/
+env/
+
+# OSが生成する一時ファイルを無視
+.DS_Store
+Thumbs.db
+
+# VS Codeの設定フォルダ（個人設定を含めたくない場合）
+.vscode/
